@@ -86,4 +86,8 @@ Os testes documentados aqui seguem o **OWASP Testing Guide v4** e o **PTES (Pene
 
 ---
 
+- Portfolio: [Porfolio (Em Desenvolvimento)](https://44lain.vercel.app)
+
+---
+
 > **Aviso Legal:** Todos os testes documentados neste repositório foram realizados com autorização explícita dos proprietários dos sistemas. Nenhuma técnica deve ser aplicada sem permissão formal. O conteúdo é de caráter educacional e profissional.
