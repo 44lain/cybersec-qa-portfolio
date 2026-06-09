@@ -6,7 +6,7 @@
 
 ## Sobre
 
-Sou formado em Análise e Desenvolvimento de Sistemas pela UNIP, com 7 anos de experiência em Linux e background em desenvolvimento front-end (React Native, Next.js). Migrei minha atuação para segurança ofensiva e QA de segurança, combinando a mentalidade de qualidade de software com práticas de pentest.
+Sou formado em Análise e Desenvolvimento de Sistemas pela UNIP, com 7 anos de experiência em Linux e background em desenvolvimento Full-Stack (React Native, Next.js, Node.js). Migrei minha atuação para segurança ofensiva e QA de segurança, combinando a mentalidade de qualidade de software com práticas de pentest.
 
 Este repositório documenta trabalhos práticos: testes de intrusão realizados, casos de teste estruturados e estudos de segurança aplicados.
 
