@@ -8,7 +8,7 @@
 
 Sou formado em Análise e Desenvolvimento de Sistemas pela UNIP, com 7 anos de experiência em Linux e background em desenvolvimento front-end (React Native, Next.js). Migrei minha atuação para segurança ofensiva e QA de segurança, combinando a mentalidade de qualidade de software com práticas de pentest.
 
-Este repositório documenta trabalhos práticos: testes de intrusão realizados, casos de teste estruturados, automações e estudos de segurança aplicados.
+Este repositório documenta trabalhos práticos: testes de intrusão realizados, casos de teste estruturados e estudos de segurança aplicados.
 
 ---
 
@@ -19,12 +19,13 @@ cybersec-qa-portfolio/
 ├── README.md
 ├── reports/
 │   ├── blackbox-assessment-redacted.md   ← Relatório real anonimizado (black-box)
-│   └── sample-vulnerability-report.md   ← Template estruturado de vulnerabilidade
+│   └── report-qa-template-addendum.md    ← Template estruturado de vulnerabilidade
 │
 ├── test-cases/
 │   ├── authentication-tests.md           ← Casos de teste: autenticação
 │   ├── authorization-tests.md            ← Casos de teste: autorização e controle de acesso
-│   └── api-security-tests.md             ← Casos de teste: segurança de APIs REST
+│   ├── api-security-tests.md             ← Casos de teste: segurança de APIs REST
+│   └── web-security.md                   ← Casos de teste: baseado em avaliação black-box real
 │
 └── certifications/
     └── solyd-introducao-pentest.pdf      ← Certificado Introdução a Pentest — Solyd (2019)
@@ -48,19 +49,6 @@ Suíte de casos de teste cobrindo:
 - **API REST** — OWASP API Top 10, rate limiting, mass assignment
 
 Formato estruturado com severidade, pré-condições, passos e critério de aprovação/reprovação.
-
----
-
-### Automação
-Scripts Python para checagem automatizada de postura de segurança HTTP:
-
-```bash
-# Verificar headers de segurança
-python3 automation/security_headers_checker.py https://alvo.com
-
-# Auditar configuração TLS
-python3 automation/ssl_checker.py alvo.com
-```
 
 ---
 
